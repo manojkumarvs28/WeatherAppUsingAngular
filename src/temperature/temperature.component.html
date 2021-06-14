@@ -1,0 +1,28 @@
+<div class="temp-details-container" *ngIf="selectedCity != null">
+    <div class="temp-header">
+        <h1>{{selectedCity}}</h1>
+    </div>
+   <div class="temp-details">
+       <div class="temp">
+            <span>{{temp}}&#176;c</span>
+       </div>
+       <div class="other-details">
+            <div class="high">
+                <span>High:</span>
+                <span>{{maxTemp}}&#176;</span>
+            </div>
+            <div class="low">
+                <span>Low:</span>
+                <span>{{minTemp}}&#176;</span>
+            </div>
+            <div class="feelsLike">
+                <span>Feels like:</span>
+                <span>{{feelsLike}}&#176;</span>
+            </div>
+            <div class="windSpeed">
+                <span>WindSpeed:</span>
+                <span>{{windSpeed}} km/h</span>
+            </div>
+       </div>
+   </div>
+</div>

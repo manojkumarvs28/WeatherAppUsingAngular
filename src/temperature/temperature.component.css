@@ -1,0 +1,37 @@
+.temp-details-container {
+    text-align: center;
+}
+
+.temp-header {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.temp-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-details {
+    display: flex;
+    flex-direction: column;
+}
+.temp {
+    margin-right: 8%;
+}
+.temp span {
+    font-size: 8rem;
+    color: white;
+}
+
+.other-details div span:nth-of-type(1) {
+    color: #2a9d8f;
+    font-size: 2.75rem;
+}
+
+.other-details div span:nth-of-type(2) {
+    color: brown;
+    font-size: 2.75rem;
+}
